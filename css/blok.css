@@ -1,0 +1,157 @@
+/* montserrat-300 - latin */
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''), url('../fonts/montserrat-v24-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v24-latin-300.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* montserrat-regular - latin */
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('../fonts/montserrat-v24-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v24-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* montserrat-500 - latin */
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''), url('../fonts/montserrat-v24-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v24-latin-500.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* montserrat-600 - latin */
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''), url('../fonts/montserrat-v24-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v24-latin-600.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.body-password {
+    background-image: url(../images/password_blok.jpg);
+    background-size: cover;
+    height: 100% !important;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-password {
+    position: absolute;
+    width: 226px;
+    height: 44px;
+    left: 515px;
+    top: 198px;
+}
+
+.username-input {
+    background-image: url(../images/user.svg);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 40px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: transparent;
+    width: 300px;
+    height: 45px;
+    left: 490px;
+    top: 292px;
+    border-radius: 4px;
+    border: 1px solid #FFFFFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.password-input {
+    background-image: url(../images/lock.svg);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 40px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: transparent;
+    width: 300px;
+    height: 45px;
+    left: 490px;
+    top: 357px;
+    border-radius: 4px;
+    border: 1px solid #FFFFFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.button-password {
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    left: 490px;
+    top: 445px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0D75FF;
+}
+
+.p-text-form {
+    position: absolute;
+    width: 146px;
+    height: 20px;
+    left: 644px;
+    top: 501px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.forma {
+    position: absolute;
+    z-index: 6;
+}
+
+.span-password {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #161718e1;
+    z-index: 5;
+}
